@@ -5,7 +5,7 @@ interface CodeBlockProps {
   code: string;
   language?: string;
 }
-
+ 
 const CodeBlock = ({ code, language = "tsx" }: CodeBlockProps) => {
   const [copied, setCopied] = useState(false);
 

@@ -25,7 +25,7 @@ const ComponentLayout = ({}: Props) => {
     <div className="flex min-h-screen text-gray-900">
       <aside
         className={`
-          w-64 p-6 flex flex-col
+          w-54 p-6 flex flex-col
           border-r border-gray-200
           fixed md:static top-0 left-0 h-full z-20
           transform ${sidebarOpen ? "translate-x-0" : "-translate-x-full"} 

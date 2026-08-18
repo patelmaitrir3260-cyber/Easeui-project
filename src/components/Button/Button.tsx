@@ -19,7 +19,7 @@ interface ButtonProps
 const buttonVariants = cva(
   `inline-flex items-center cursor-pointer justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50`,
   {
-    variants: {
+    variants: {    
       variant: {
         dark: "bg-slate-900 text-white",
         primary: "bg-indigo-600 hover:bg-indigo-700 text-white",
@@ -96,7 +96,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         duration: 0.15,
         ease: "back.out(2)",
       });
-    };
+    };  
 
     return (
       <Comp
