@@ -1,5 +1,5 @@
 import Tooltip from '@/components/Tooltip/Tooltip'
-import React from 'react'
+// import React from 'react'
 import { Button } from '@/components'
 import ComponentDemo from '../ComponentsDemo';
 import PropsTable from '@/components/Personal/PropsTable';
